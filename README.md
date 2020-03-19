@@ -1,7 +1,7 @@
 # minor-project
-*LDR--LIGHT DEPENDENT RESISTOR(its a light contollable resistor)(its resistance increases with increase in light intensity)
+*LDR--LIGHT DEPENDENT RESISTOR(its a light contollable resistor,its resistance increases with increase in light intensity)
   
-  Principle:
+  PRINCIPLE:
 principle of this color detector is light of a particular color when incident on same coloured objects gets reflected without getting absorbed and complimentary color of object gets absorbed by that object.
                                                       
   WORKING:
