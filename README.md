@@ -1,9 +1,11 @@
 # minor-project
                                                       PRINCIPLE:
 principle of this color detector is light of a particular color when incident on same coloured objects gets reflected without getting absorbed and complimentary color of object gets absorbed by that object.
-                                                       WORKING:
+                                                      
+                                                      WORKING:
 An rgb led is given input by microcontroller,so that it glows in three colors with a small delay for each colour.during that delay period(of each colour) the LDR's resistance changes accordingly and that data is collected by microcontroller and microcontroller gives HIGH or LOW signal to the other RGB Led,whose colour tells which coloured object is sensed.Here the LDR's values for different colours (red,green, blue) of the first mentioned RGB led(in this text) are recorded and some comparisions are made by microcontroller(mentioned in the below Code) and accordingly output RGB LED glows(gives corresponding colour of object).   
-                                                          CODE:
+                                                         
+                                                         CODE:
 /*------------------------------------------------------TRI-colour detector---------------------------------------------------------------------*/
 /*here the value of ldr will be recorded and compared for different colored lights incident on object and comparision of those values will be done
   and accordingly output rgb led colour will glow*/
@@ -37,7 +39,8 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite(redled, LOW); //here the two rgb leds used are common cathode type so when LOW is given rgb led glows and dims when HIGH is given
+  digitalWrite(redled, LOW);
+  //here the two rgb leds used are common cathode type so when LOW is given rgb led glows and dims when HIGH is given
   delay(20);
   red = analogRead(value);
   delay(5);
