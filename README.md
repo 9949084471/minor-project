@@ -11,11 +11,11 @@ An rgb led is given input by microcontroller,so that it glows in three colors wi
 /*------------------------------------------------------TRI-colour detector---------------------------------------------------------------------*/
 /*here the value of ldr will be recorded and compared for different colored lights incident on object and comparision of those values will be done and accordingly output rgb led colour will glow*/
 
-int redled = 2;
+int redled = 5;
 
-int greenled = 3;
+int greenled = 6;
 
-int blueled = 4;
+int blueled = 7;
 
 int value = A0;
 
@@ -37,13 +37,13 @@ int greenvalue;
 
 int bluevalue;
 
-int redout = 8;
+int redout = 10;
 
 //digitals pins of output rgb led(that glows after detecting color)
 
-int blueout = 10;
+int blueout = 12;
 
-int greenout = 9;
+int greenout = 11;
 
 void setup() 
 
